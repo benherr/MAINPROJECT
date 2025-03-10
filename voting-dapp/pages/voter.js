@@ -44,17 +44,17 @@ const voter = () => {
   //VOTER DETAIL
   const [updateVoter, setUpdateVoter] = useState({
     _name: "",
-    _voterAddress: "",
-    _photograph: "",
-    _parentOrSpouseName: "",
-    _gender: "",
-    _dobOrAge: "",
-    _addressDetails: "",
-    _epicNumber: "",
-    _partNumberAndName: "",
-    _assemblyConstituencyNumberAndName: "",
-    _issuingAuthoritySignature: "",
-    _hologramAndBarcode: "",
+    // _voterAddress: "",
+    // _photograph: "",
+    // _parentOrSpouseName: "",
+    // _gender: "",
+    // _dobOrAge: "",
+    // _addressDetails: "",
+    // _epicNumber: "",
+    // _partNumberAndName: "",
+    // _assemblyConstituencyNumberAndName: "",
+    // _issuingAuthoritySignature: "",
+    // _hologramAndBarcode: "",
   });
   //
   useEffect(() => {

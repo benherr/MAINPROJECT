@@ -67,7 +67,7 @@ const voterDetails = () => {
         OWNER_ADDRESS={OWNER_ADDRESS}
       />
       {loader && <Loader />}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

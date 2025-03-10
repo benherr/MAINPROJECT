@@ -45,19 +45,19 @@ const signup = () => {
   //CANDIDATE DETAIL
   const [updateCandidate, setUpdateCandidate] = useState({
     _name: "",
-    _nominationForm: "",
-    _affidavit: "",
-    _criminalAntecedents: "",
-    _assetsAndLiabilities: "",
-    _educationalQualifications: "",
-    _electoralRollEntry: "",
-    _securityDeposit: "",
-    _partyAffiliation: "",
-    _oathOrAffirmation: "",
-    _photographs: "",
-    _proofOfAge: "",
-    _proofOfAddress: "",
-    _panCardDetails: "",
+    // _nominationForm: "",
+    // _affidavit: "",
+    // _criminalAntecedents: "",
+    // _assetsAndLiabilities: "",
+    // _educationalQualifications: "",
+    // _electoralRollEntry: "",
+    // _securityDeposit: "",
+    // _partyAffiliation: "",
+    // _oathOrAffirmation: "",
+    // _photographs: "",
+    // _proofOfAge: "",
+    // _proofOfAddress: "",
+    // _panCardDetails: "",
     _voterIdCardDetails: "",
   });
 
@@ -299,13 +299,13 @@ const signup = () => {
                       setPdf={setPdf}
                     />
                   </div>
-                  <label class="checkbox-single d-flex align-items-center nw1-color mt-3">
+                  {/* <label class="checkbox-single d-flex align-items-center nw1-color mt-3">
                     <span class="checkbox-area d-center">
                       <input type="checkbox" />
                       <span class="checkmark d-center"></span>
                     </span>
                     I accept the privacy policy
-                  </label>
+                  </label> */}
                   <div class=" mt-7 mt-lg-8">
                     <button
                       onClick={() =>
@@ -319,10 +319,10 @@ const signup = () => {
                 </div>
 
                 <div class="mt-8 mt-lg-10">
-                  <p>
+                  {/* <p>
                     Before registering kindly check the nomination details{" "}
                     <a href="/">here</a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

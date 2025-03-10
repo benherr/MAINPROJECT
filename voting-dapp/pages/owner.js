@@ -58,7 +58,7 @@ const voter = () => {
     <>
       <Preloader />
       <ScrollToTop />
-      <Cursor />
+      {/* <Cursor /> */}
 
       <section class="sign nb4-bg h-100 d-flex align-items-center position-relative z-0">
         <div class="animation position-absolute top-0 left-0 w-100 h-100 z-n1">

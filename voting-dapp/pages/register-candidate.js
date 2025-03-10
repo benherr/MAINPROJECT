@@ -74,7 +74,7 @@ const registerCandidate = () => {
         user={user}
       />
       {loader && <Loader />}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

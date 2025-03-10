@@ -45,7 +45,7 @@ const Member = ({
                     </strong>
                   </p>
                   <p class="mb-3">
-                  By casting your vote, you play a vital role in the decision-making process.
+                  {/* By casting your vote, you play a vital role in the decision-making process?. */}
                   </p>
                   {path == "candidate" &&
                     item?.status == 1 &&
@@ -113,7 +113,7 @@ const Member = ({
               href="#"
               class="cmn-btn py-2 py-lg-3 px-4 px-lg-6 gap-2 gap-lg-3 align-items-center"
             >
-              View More
+              {/* View More */}
             </a>
           </div>
         </div>

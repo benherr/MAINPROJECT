@@ -6,6 +6,7 @@ import {
   Footer,
   Header,
   Team,
+  HeroSection,
 } from "../Components/index";
 //IMPORTING CONTRCT DATA
 import { VOTING_DAPP_CONTEXT } from "../context/context";
@@ -43,9 +44,10 @@ const registerVoters = () => {
       <Preloader />
       <ScrollToTop />
       <Cursor />
-      <Header />
+      <HeroSection/>
+      {/* <Header /> */}
       <Team candidates={candidates} path={"voter"} />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

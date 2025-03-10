@@ -82,7 +82,7 @@ const candidateDetails = () => {
     <>
       <Preloader />
       <ScrollToTop />
-      <Cursor />
+      {/* <Cursor /> */}
       <Header />
       <TeamDetail
         candidate={candidate}
@@ -98,7 +98,7 @@ const candidateDetails = () => {
         currentVotingTime={currentVotingTime}
       />
       {loader && <Loader />}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -75,7 +75,7 @@ const Upload = ({ setLoader, notifySuccess, notifyError, setPdf }) => {
               d="M79 167.138H259"
             ></path>
           </svg>
-          <span class="tooltip">Upload PDF Document</span>
+          <span class="tooltip">Upload voterId as PDF</span>
         </label>
         <input {...getInputProps()} type="file" id="file" name="file" />
       </div>

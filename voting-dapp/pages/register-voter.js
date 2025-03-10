@@ -38,7 +38,7 @@ const registerVoters = () => {
       <Cursor />
       <Header />
       <Team candidates={candidates} path={"voter"} />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

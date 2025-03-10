@@ -73,7 +73,7 @@ const registerVoters = () => {
       <Preloader />
       <ScrollToTop />
       <Cursor />
-      <Header />
+      {/* <Header /> */}
       <Team
         candidates={candidates}
         path={"candidate"}
@@ -84,9 +84,11 @@ const registerVoters = () => {
         user={user}
       />
       {loader && <Loader />}
-      <Footer />
+      {/* <Footer /> */}
     </>
+    
   );
+  
 };
 
 export default registerVoters;

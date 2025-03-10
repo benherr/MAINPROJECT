@@ -37,7 +37,7 @@ const Details = ({
               <div class="team__content pe-md-4">
                 <h5 class="team__title mb-4">{candidate?._name}</h5>
                 <p class="mb-4">
-                  Hey there! By casting your vote, you play a vital role in the decision-making process, ensuring that your voice and the collective perspective are considered.
+                  Hey there! By casting your vote, you play a vital role in the decision-making process.
                 </p>
                 <ul class="social-area d-flex align-items-center gap-2 gap-md-3 mt-8 mt-lg-10">
                   <li>
@@ -139,9 +139,9 @@ const Details = ({
                   </ul>
                 )} */}
 
-                <p class="mb-4 mt-10">
+                {/* <p class="mb-4 mt-10">
                   <strong>Notice:</strong> {candidate?.message}
-                </p>
+                </p> */}
                 {address == candidate?.address.toLowerCase() &&
                 candidate?.status == 0 ? (
                   <div class="custom-actions mb-6">
@@ -266,7 +266,7 @@ const Details = ({
                   ""
                 )}
 
-                <ul class="social-area d-flex align-items-center gap-2 gap-md-3 mt-8 mt-lg-10">
+                {/* <ul class="social-area d-flex align-items-center gap-2 gap-md-3 mt-8 mt-lg-10">
                   <li>
                     <a class="d-center cus-rounded-1 fs-four" href="#">
                       <i class="ti ti-brand-facebook"></i>
@@ -291,8 +291,8 @@ const Details = ({
                     <a class="d-center cus-rounded-1 fs-four" href="#">
                       <i class="ti ti-brand-youtube"></i>
                     </a>
-                  </li>
-                </ul>
+                  </li> */}
+                {/* </ul> */}
               </div>
             </div>
           </div>
