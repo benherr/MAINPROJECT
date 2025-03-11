@@ -1,4 +1,4 @@
-# Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+# Build & Deploy Your First Decentralized Voting DApp | Solidity, Next.js, Hardhat
 
 Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
 
