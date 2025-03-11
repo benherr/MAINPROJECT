@@ -6,12 +6,6 @@ Dive into the world of blockchain development by creating your very own decentra
 
 
 
-## Project Overview
-
-
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
 ```
 
 #### Install Vs Code Editor
