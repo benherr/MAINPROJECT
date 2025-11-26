@@ -1,29 +1,16 @@
-# Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+# Build & Deploy Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
 
 Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
 
-Dive into the world of blockchain development by creating your very own decentralized election voting DApp. In this tutorial, we will guide you through the entire process of building and deploying a secure and transparent voting application using Solidity for smart contracts, Hardhat for development and testing, and Next.js for the frontend. Perfect for beginners and seasoned developers alike, this video covers:
+Dive into the world of blockchain development by creating your very own decentralized election voting DApp.
 
 - Writing and deploying smart contracts in Solidity
 - Setting up a development environment with Hardhat
 - Building a responsive frontend with Next.js
 - Connecting your DApp to the Ethereum network
 
-By the end of this tutorial, you’ll have a fully functional decentralized voting - system ready to be deployed on the blockchain. Subscribe and hit the bell icon to stay updated with the latest in blockchain development!
 
 ## Project Overview
-
-![alt text](https://www.daulathussain.com/wp-content/uploads/2024/05/Building-Deploying-a-MERN-STACK-Blockchain-Music-Artists-Social-Media-Dapp.jpg)
-
-## Instruction
-
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
-
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/building-and-deploying-a-full-mern-stack-blockchain-music-artists-social-media-dapp)
-
-#### Setup Video
-
-- [Final Code Setup video](https://youtu.be/rp83FIpXyEY?si=XkOBP4yFGlpuwfTe)
 
 ```https://code.visualstudio.com/download
   WATCH: Setup & Demo Of Project
@@ -83,23 +70,10 @@ Kindly follow the following Instructions to run the project in your system and i
   GET: Project Starter File Download
 ```
 
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
 ```https://code.visualstudio.com/download
   WATCH: Setup & Demo Of Project
 ```
 
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
 
 #### Install Vs Code Editor
 
@@ -143,17 +117,6 @@ We are using RemixID for deploying the contract and generation of the ABI in the
   const [state, handleSubmit] = useForm("YOUR_KEY");
 ```
 
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
 
 #### PACKAGE.JSON
 
