@@ -1,6 +1,6 @@
-# Build & Deploy Your First Decentralized Voting DApp | Solidity, Next.js, Hardhat
+# Decentralized Voting DApp | Solidity, Next.js, Hardhat
 
-Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+Build & Deploy  Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
 
 Dive into the world of blockchain development by creating your very own decentralized election voting DApp.  building and deploying a secure and transparent voting application using Solidity for smart contracts, Hardhat for development and testing, and Next.js for the frontend. 
 
