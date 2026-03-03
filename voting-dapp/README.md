@@ -232,6 +232,10 @@ Can be deployed to:
 - Polygon Testnet
 - Ethereum Sepolia
 
+
+📖 Detailed deployment instructions available here:
+
+👉 [View Deployment Guide](./DEPLOYMENT.md)
 ---
 
 
