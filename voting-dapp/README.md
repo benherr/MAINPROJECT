@@ -15,7 +15,6 @@ Traditional voting systems can suffer from:
 - Centralized control
 - Data manipulation risks
 - Lack of transparency
-- Security vulnerabilities
 
 This project solves these issues using blockchain technology.
 
@@ -36,11 +35,12 @@ This project solves these issues using blockchain technology.
 
 ### 🏠 Home Page
 
-<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/Homepage.png"/>
+<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/Homepage.png" width="900"/>
+
 
 ### 📊 Winner Page
 
-<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/Homepage.png"/>
+<img src=https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/winnerPage.png width="900"/>
 
 
 ```
