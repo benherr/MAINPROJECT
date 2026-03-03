@@ -35,10 +35,12 @@ This project solves these issues using blockchain technology.
 ## 🖼️ Application Screenshots
 
 ### 🏠 Home Page
-(Add your screenshot below)
 
-```html
-<img src="ADD_IMAGE_LINK_HERE" width="900"/>
+<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/Homepage.png"/>
+
+### 📊 Winner Page
+
+<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/Homepage.png"/>
 
 
 ```
