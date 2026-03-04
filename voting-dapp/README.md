@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./Images/banne 1r.png" width="100%" height="5%">
+</p>
+
 # 🗳️ Decentralized Voting DApp  
 ### Solidity | Next.js | Hardhat | IPFS (Pinata)
 
@@ -81,7 +86,7 @@ Next.js Frontend
 Smart Contract (Solidity)
   │
   ▼
-Ethereum Blockchain
+Blockchain
   │
   └──────────────► IPFS Storage (Pinata)
 ```
