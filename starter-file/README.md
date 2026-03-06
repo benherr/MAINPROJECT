@@ -1,152 +1,348 @@
-# Build & Deploy Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
 
-Build & Deploy Your First Decentralized Election Voting DApp | Solidity, Next.js, Hardhat
+<p align="center">
+  <img src="./Images/banne 1r.png" width="100%" height="5%">
+</p>
 
-Dive into the world of blockchain development by creating your very own decentralized election voting DApp.
+# 🗳️ Decentralized Voting DApp  
+### Solidity | Next.js | Hardhat | IPFS (Pinata)
 
-- Writing and deploying smart contracts in Solidity
-- Setting up a development environment with Hardhat
-- Building a responsive frontend with Next.js
-- Connecting your DApp to the Ethereum network
+A secure and transparent blockchain-based voting application built using **Solidity smart contracts**, **Hardhat**, and **Next.js**.
 
+This system eliminates centralized control and ensures tamper-proof voting using Ethereum blockchain technology.
 
-## Project Overview
+---
 
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
+# 📌 Problem Statement
+
+Traditional voting systems can suffer from:
+
+- Centralized authority control  
+- Risk of data manipulation  
+- Lack of transparency  
+- Security vulnerabilities  
+
+This project solves these issues using blockchain technology to ensure transparency, immutability, and decentralization.
+
+---
+
+# 🚀 Key Features
+
+- ✅ Decentralized voting using Ethereum  
+- ✅ Smart contract-based voting logic  
+- ✅ Secure voter & candidate registration  
+- ✅ Voting period control  
+- ✅ Automatic winner calculation  
+- ✅ IPFS storage using Pinata  
+- ✅ MetaMask wallet integration  
+- ✅ Admin approval system  
+
+---
+
+# 🖼️ Application Screenshots
+
+## 🏠 Home Page
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/Homepage.png" width="900"/>
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/Candi_reg.png" width="900"/>
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/voter_reg.png" width="900"/>
+
+---
+
+## 🗳️ Voting Dashboard
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/candiatates.png" width="900"/>
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/Screenshot%20(26).png" width="900"/>
+
+---
+
+## 📊 Admin Dashboard
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/Screenshot%20(24).png" width="900"/>
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/approval.png" width="900"/>
+
+---
+
+## 🏆 Winner Page
+
+<img src="https://raw.githubusercontent.com/benherr/MAINPROJECT/main/voting-dapp/Images/winnerPage.png" width="900"/>
+
+The winner page automatically displays the candidate with the highest votes after the voting period ends.
+
+---
+
+# 🏗️ System Architecture
+
+```text
+User
+  │
+  ▼
+Next.js Frontend
+  │
+  ▼
+Smart Contract (Solidity)
+  │
+  ▼
+Blockchain
+  │
+  └──────────────► IPFS Storage (Pinata)
 ```
 
-#### Install Vs Code Editor
+---
 
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
+# 📦 IPFS Storage Using Pinata
+
+## 📦 Pinata Dashboard
+
+<img src="https://github.com/benherr/MAINPROJECT/blob/main/voting-dapp/Images/pinnata.png" width="900"/>
+
+---
+## 📌 Why Pinata?
+
+- Reliable IPFS pinning service  
+- Ensures permanent file availability  
+- Easy API integration  
+- Secure API key authentication  
+
+---
+
+## 🔄 How It Works
+
+1. User uploads candidate image or document  
+2. File is sent to Pinata API  
+3. Pinata stores file on IPFS  
+4. IPFS hash (CID) is returned  
+5. CID is stored inside the smart contract  
+6. File is retrieved using:
+
+```text
+https://gateway.pinata.cloud/ipfs/<CID>
 ```
 
-#### DEPLOYMENT
+---
 
-- [Get $200 Credit](https://m.do.co/c/fbe1551c5ae1)
+## 📊 Pinata File Flow Diagram
 
-```https://nodejs.org/en/download
-  PROVIDER: Digital Ocean
+```text
+User Upload
+     │
+     ▼
+Frontend (Next.js)
+     │
+     ▼
+Pinata API
+     │
+     ▼
+IPFS Network
+     │
+     ▼
+Returns CID
+     │
+     ▼
+Stored in Smart Contract (Solidity)
 ```
 
-#### NodeJs & NPM Version
+---
 
-```https://nodejs.org/en/download
-  NodeJs: v18.12.2 / latest version
-  NPM: 10.5.0
+# 📜 Smart Contract Details
+
+- Written in Solidity ^0.8.x  
+- Developed & tested using Hardhat  
+- Stores:
+  - Candidate details  
+  - Vote counts  
+  - IPFS CID  
+- Implements:
+  - Voting period restriction  
+  - Candidate approval system  
+  - getWinningCandidate() logic  
+  - Access control  
+
+---
+
+# 🔐 Security Considerations
+
+- Immutable vote storage on blockchain  
+- Voting allowed only during active period  
+- Admin approval before candidate listing  
+- IPFS CID stored on-chain for integrity  
+- API keys stored in environment variables  
+- MetaMask-based authentication  
+
+---
+
+# ⚙️ Prerequisites
+
+- Node.js v18+  
+- Hardhat  
+- MetaMask browser extension  
+- Pinata account  
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the Decentralized Voting DApp locally.
+
+---
+
+### 1️⃣ Prerequisites
+
+Ensure the following tools are installed on your system:
+
+- **Node.js** v18+
+- **npm** v8+
+- **MetaMask** browser extension
+- **Git**
+
+---
+
+### 2️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/benherr/MAINPROJECT.git
+cd voting-dapp
 ```
 
-#### PInata IPFS
+---
 
-```https://www.pinata.cloud/
- GET: API_KEY
- GET:  SECRECT_KEY
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
 ```
 
-## PInata IPFS IMAGE UPLOAD
+---
 
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-            "Content-Type": "multipart/form-data",
-          },
+### 4️⃣ Start Local Hardhat Blockchain
+
+Run the local Ethereum development network:
+
+```bash
+npx hardhat node
 ```
 
-## PInata IPFS JSON DATA UPLOAD
+This command starts a local blockchain and generates several test accounts with ETH.
 
-```https://www.pinata.cloud/
- headers: {
-            pinata_api_key: `YOUR_API_KEY`,
-            pinata_secret_api_key: `YOUR_SECRECT_KEY`,
-             "Content-Type": "application/json",
-          },
-```
-
-#### Clone Starter File
-
-```URL
-  GET: Project Starter File Download
-```
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v21.6.2 / latest version
-  NPM: 10.5.0
-```
-
-#### Test Faucets
-
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```https://faucet.polygon.technology/
-  Get: Free Test Faucets
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Amoy
-
-```https://www.oklink.com/amoy
-  OPEN: Polygon Amoy
-```
-
-#### Formspree
-
-```https://formspree.io/
-  CREATE ACCOUNT: https://formspree.io/
-  const [state, handleSubmit] = useForm("YOUR_KEY");
-```
-
-
-#### PACKAGE.JSON
-
-```https://www.theblockchaincoders.com/SourceCode
-  {
-  "name": "voting-organization",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "ether": "^0.0.9",
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-dropzone": "^14.2.2",
-    "react-icons": "^4.4.0",
-    "web3modal": "^1.9.9",
-    "react-hot-toast": "^2.4.1",
-    "@formspree/react": "^2.5.1"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.2"
-  }
-}
+Example output:
 
 ```
+Account #0: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Private Key: 0xac0974bec39a17e36ba4a6b4d238ff...
+```
+
+---
+
+### 5️⃣ Import Hardhat Account into MetaMask
+
+1. Open **MetaMask**
+2. Click **Import Account**
+3. Paste one of the private keys generated by Hardhat
+
+This account will be used for testing transactions.
+
+---
+
+### 6️⃣ Deploy the Smart Contract
+
+Open a new terminal and run:
+
+```bash
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+After deployment, the terminal will display the **contract address**.
+
+---
+
+### 7️⃣ Update Contract ABI
+
+Copy the contract file from:
+
+```
+artifacts/contracts/VotingOrganization.sol/VotingOrganization.json
+```
+
+and place it inside the frontend **context** folder.
+
+---
+
+### 8️⃣ Run the Frontend
+
+```bash
+npm run dev
+```
+
+Open the application in your browser:
+
+```
+http://localhost:3000
+```
+
+Connect **MetaMask** and start interacting with the voting application.
+
+---
+
+### ✅ Application Ready
+
+You can now:
+
+- Register candidates  
+- Register voters  
+- Cast votes  
+- View election results
+
+Make sure MetaMask is connected to your local Hardhat network or testnet.
+
+---
+
+# 📁 Project Structure
+
+```text
+voting-dapp/
+│
+├── contracts/
+├── pages/
+├── components/
+├── context/
+├── Images/
+├── hardhat.config.js
+└── package.json
+```
+
+---
+
+# 📦 Key Dependencies
+
+- Next.js  
+- React  
+- Hardhat  
+- Web3Modal  
+- Axios  
+- React Dropzone  
+
+---
+
+## 🌐 Deployment
+
+Currently deployed on local Hardhat network.
+Can be deployed to:
+- Polygon Testnet
+- Ethereum Sepolia
+
+
+📖 Detailed deployment instructions available here:
+
+👉 [View Deployment Guide](./DEPLOYMENT.md)
+---
+
+
+
+
+
+---
+
+⭐ If you like this project, give it a star!
